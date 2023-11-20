@@ -11,6 +11,9 @@ function App() {
   return (
   
     <Routes>
+      <Route path="/" element={<Home />}>
+        <Route  index  element={<Main />}/>
+        </Route>
         <Route  path='/basic-react-dep/' element={<Home />}>
         <Route  index  element={<Main />}/>
          <Route path='shop' element={<Shop />} />

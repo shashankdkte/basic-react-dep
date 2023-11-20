@@ -7,8 +7,9 @@ function Navigation() {
       <div className="navigation">
         <Link to='/' className='logo-container' >React</Link>
         <div className="nav-links-container">
-          <Link className='nav-link' to='/shop'>Shop</Link>
-          <Link className='nav-link' to='/sign-in'>Sign</Link>
+          <Link className='nav-link' to='/basic-react-dep/shop'>Shop</Link>
+         
+          <Link className='nav-link' to='/basic-react-dep/sign-in'>Sign</Link>
         </div>
       </div>
     </>
