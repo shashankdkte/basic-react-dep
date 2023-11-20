@@ -11,7 +11,7 @@ function App() {
   return (
   
     <Routes>
-        <Route  path='/' element={<Home />}>
+        <Route  path='/basic-react-dep/' element={<Home />}>
         <Route  index  element={<Main />}/>
          <Route path='shop' element={<Shop />} />
         <Route path='sign-in' element={<Sign/>} />
